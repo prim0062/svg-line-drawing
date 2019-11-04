@@ -1,0 +1,59 @@
+h1 {
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+  position: absolute;
+  z-index: 2;
+  transform: translate(1em,2em);
+  max-width: 350px;
+}
+
+.bg, .narwhal-body {
+  fill: #78a2b3;
+}
+
+.rainbow-violet, .rainbow-indigo, .rainbow-blue, .rainbow-green, .rainbow-yellow, .rainbow-orange, .rainbow-red {
+  fill: none;
+  stroke-width: 12.37px;
+}
+
+.rainbow-violet {
+  stroke: #ff00e6;
+}
+
+.rainbow-violet, .rainbow-indigo, .rainbow-blue, .rainbow-green, .rainbow-yellow, .rainbow-orange, .rainbow-red, .narwhal-body {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.rainbow-indigo {
+  stroke: #9500ff;
+}
+
+.rainbow-blue {
+  stroke: #0040ff;
+}
+
+.rainbow-green {
+  stroke: #2bff00;
+}
+
+.rainbow-yellow {
+  stroke: #fff700;
+}
+
+.rainbow-orange {
+  stroke: #ff8000;
+}
+
+.rainbow-red {
+  stroke: red;
+}
+
+.narwhal-body {
+  stroke: #fff;
+  stroke-width: 12px;
+}
+
+.narwhal-eye {
+  fill: #fff;
+}
